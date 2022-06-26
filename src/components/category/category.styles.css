@@ -1,0 +1,31 @@
+.category-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:350px;
+    gap: 0.1em 0;
+    margin-bottom: 1em;
+    overflow-x: scroll;
+}
+.category-container::-webkit-scrollbar{
+    display: none;
+}
+.category-title{
+    color:#fff;
+    letter-spacing: 2px;
+}
+.category-items{
+    display: flex;
+    width:100%;
+    gap: 0 0.5em;
+}
+.movie-card{
+    height:280px;
+    width: 160px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 450ms;
+}
+.movie-card:hover{
+    transform: scale(1.04);
+}
