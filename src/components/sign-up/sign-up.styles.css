@@ -1,0 +1,13 @@
+.sign-up-container{
+    position: relative;
+    z-index: 2;
+    width:300px;
+    height: 400px;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em 0;
+    color:#fff;
+}

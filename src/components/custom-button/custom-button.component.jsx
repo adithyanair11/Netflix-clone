@@ -2,7 +2,8 @@ import './custom-button.styles.css';
 
 
 const BUTTON_TYPES_CLASSES = {
-    bannerButton: 'banner-Button'
+    bannerButton: 'banner-button',
+    signInButton: 'sign-in-button'
 }
 
 export const Button = ({children,buttonType,...otherProps}) => {

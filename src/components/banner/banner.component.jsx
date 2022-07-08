@@ -33,7 +33,8 @@ export const Banner = () => {
             {
                 backgroundImage: `url("https://image.tmdb.org/t/p/original/${backdrop_path}")`,
                 backgroundSize: "cover",
-                backgroundPosition: "center"
+                backgroundPosition: "top center",
+                backgroundRepeat: "no-repeat"
             }
         }>
         <div className='banner-contents'>
